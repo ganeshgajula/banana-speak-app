@@ -6,11 +6,15 @@
 // alert("Welcome to my project " + userName);
 
 let btnTranslate = document.querySelector("#btn-translate");
+let textInput = document.querySelector("#txt-input");
+
 btnTranslate.addEventListener("click", function () {
   console.log("clicked!");
+  console.log(textInput.value);
 });
 
-btnTranslate.addEventListener("click", clickHandler);
-function clickHandler() {
-  console.log("clicked!!");
-}
+// Same As Above
+// btnTranslate.addEventListener("click", clickHandler);
+// function clickHandler() {
+//   console.log("clicked!!");
+// }
