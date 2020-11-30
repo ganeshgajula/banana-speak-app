@@ -5,3 +5,20 @@ textarea {
   margin: 1rem;
   padding: 1rem;
 }
+
+#output-msg {
+  border: 1px solid greenyellow;
+  width: 80%;
+  height: 20vh;
+  margin: 1rem;
+  padding: 1rem;
+}
+
+#btn-translate {
+  margin: 1rem;
+}
+
+.heading {
+  margin: 1rem;
+  color: red;
+}
