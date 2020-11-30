@@ -20,7 +20,15 @@ function doFetch(text) {
     .then((response) => response.json())
     .then((json) => {
       outputMsg.innerText = json.contents.translated;
-    });
+    })
+    .catch(errorHandler);
+}
+
+function errorHandler(error) {
+  console.log("error occurred", error);
+  alert(
+    "Oops!! Looks like something is wrong with server. Please try again after some time"
+  );
 }
 
 function clickHandler() {
