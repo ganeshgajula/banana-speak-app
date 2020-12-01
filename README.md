@@ -8,4 +8,5 @@ Translates user input English text into banana language.
 
 <br/>
 Demo Image :
-![app image](https://user-images.githubusercontent.com/59173265/100708355-23b2c800-33d2-11eb-86d4-69ec2f12d943.png);
+
+![App Image](https://user-images.githubusercontent.com/59173265/100708654-b6536700-33d2-11eb-9f70-4469e7115848.png)
